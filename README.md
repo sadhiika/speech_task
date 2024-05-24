@@ -1,4 +1,6 @@
 Short Description of the Code
+
+
 Download Video and Extract Audio: I used the pytube library to download the YouTube video because its a straightforward and reliable tool for accessing video content. For extracting the audio, pydub is very effective as it handles various audio formats and provides easy-to-use methods for exporting audio files.
 
 Transcription of Audio To transcribe the audio, I chose the Wav2Vec2ForCTC model from Hugging Face. This model is well-regarded for its high accuracy in speech recognition tasks. I used it because it's pre-trained on a large dataset, which makes it highly effective at converting spoken language into text without needing additional training. By setting the audio sample rate to 16kHz and ensuring it is mono, I optimized the transcription quality.
